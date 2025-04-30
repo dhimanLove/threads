@@ -1,0 +1,56 @@
+name: threads
+description: "A Threads Clone App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider:
+  http:
+  flutter_gemini:
+  get_storage:
+  flutter_dotenv:
+  firebase_core:
+  cached_network_image:
+  firebase_auth:
+  firebase_messaging:
+  font_awesome_flutter: ^10.8.0
+  google_fonts: 6.2.1
+  get:
+  google_sign_in: ^6.2.2
+  random_string: ^2.3.1
+  gesture_x_detector: ^1.1.1
+  supabase_flutter: ^2.8.3
+  intl: ^0.20.2
+  image_picker:
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.70.2
+  getwidget: ^5.0.0
+  gradient_icon: ^2.0.9
+  form_validator:
+  camera:
+  video_player:
+  gradient_circular_progress_indicator: ^0.0.4
+  liquid_progress_indicator_v2: ^0.5.0
+  agora_rtc_engine:
+  permission_handler:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/avatar.png
+    - lib/assets/logo.png
